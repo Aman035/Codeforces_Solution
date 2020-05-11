@@ -1,6 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*LOGIC - Take initial position of robot to be (0,0)
+	x is counter of up and down movement
+	y is counter of right and left movement
+	At every step check that if x and y both are 0 or not(ie Robot is at initial position or not)
+*/
+
 int numfun(char c)
 {
 	if(c=='U')
