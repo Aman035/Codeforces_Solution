@@ -10,9 +10,9 @@ int main()
 		cin>>n;
 		long long int a;
 		long long int b;
-		a=pow(2,n)+2*(pow(2,n/2-1)-1);
-		b=2*(pow(2,n)-1)-a;
-		cout<<abs(a-b)<<"\n";
+		a=pow(2,n)+2*(pow(2,n/2-1)-1);//Sum of last element and n/2 -1 elements from front
+		b=2*(pow(2,n)-1)-a; //Sum of remaining elements
+		cout<<abs(a-b)<<"\n"; //abs() for taking absolute value
 	}
 	return 0;
 }
